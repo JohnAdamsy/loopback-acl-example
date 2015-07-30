@@ -1,0 +1,25 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "dbSQL": {
+    "name": "dbSQL",
+    "connector": "mysql",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "api_lb-acl-discovered",
+    "username": "root",
+    "password": ""
+  },
+
+  "dbMongo": {
+    "name": "dbMongo",
+    "connector": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "api_lb-acl-discovered",
+    "username": "",
+    "password": ""
+  }
+}
